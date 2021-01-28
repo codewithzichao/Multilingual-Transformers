@@ -1,7 +1,7 @@
 # Offensive Language Identification in Dravidian Languages at EACL2021 Workshop
 Source code for EACL2021 workshop: Offensive Language Identification in Dravidian Languages.
 
-**updated:** Source code is released!🤩
+**Updated:** Source code is released!🤩
 
 > I will release the code very soon.
 
