@@ -81,8 +81,8 @@ prior = torch.FloatTensor(prior).to(device)
 ###计算prior
 
 # bert文件路径
-roberta_path = base_path + "/xlm-roberta-base/"
-roberta_vocab_path = base_path + "/xlm-roberta-base/sentencepiece.bpe.model"
+roberta_path = base_path + "/pretrained_weights/xlm-roberta-base/"
+roberta_vocab_path = base_path + "/pretrained_weights/xlm-roberta-base/sentencepiece.bpe.model"
 
 # tokenizer
 tokenizer = XLMRobertaTokenizer(vocab_file=roberta_vocab_path)

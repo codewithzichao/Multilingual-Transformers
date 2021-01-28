@@ -84,8 +84,8 @@ prior = torch.FloatTensor(prior).to(device)
 ###计算prior
 
 # bert文件路径
-bert_path = base_path + "/bert-base-multilingual-cased/"
-bert_vocab_path = base_path + "/bert-base-multilingual-cased/vocab.txt"
+bert_path = base_path + "/pretrained_weights/bert-base-multilingual-cased/"
+bert_vocab_path = base_path + "/pretrained_weights/bert-base-multilingual-cased/vocab.txt"
 
 # tokenizer
 tokenizer = BertTokenizer(vocab_file=bert_vocab_path)
