@@ -26,7 +26,7 @@ Source code for EACL2021 workshop: Offensive Language Identification in Dravidia
 └── train.py                    # define training and validation loop
 ```
 ## Installation
-Use the following so that you can install all of required packages:
+Use the following command so that you can install all of required packages:
 ```shell
 sh install_cli.sh
 ```
