@@ -27,7 +27,7 @@ parser.add_argument("--base_path", default="/Users/codewithzichao/Desktop/compet
                     help="please input base_path", required=False)
 parser.add_argument("--lang_id_task",default=False,type=bool,help="whether to add language identification task",required=False)
 parser.add_argument("--mmi",default=False,type=bool,help="whether to add mmi loss",required=False)
-parser.add_argument("--batch_size", default=4, type=int, help="please input batch size", required=False)
+parser.add_argument("--batch_size", default=8, type=int, help="please input batch size", required=False)
 parser.add_argument("--epochs", default=50, type=int, help="please input epoch", required=False)
 parser.add_argument("--logfile", default="logfile/2", type=str, help="please input logfile", required=False)
 args = parser.parse_args()
