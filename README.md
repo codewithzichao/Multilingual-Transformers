@@ -8,14 +8,22 @@ Source code for EACL2021 workshop: Offensive Language Identification in Dravidia
 ## Repository structure
 ```shell
 ├── README.md
+├── ckpt                        # store model weights
+│   └── README.md
+├── data                        # store the data
+│   └── README.md
 ├── gen_data.py                 # generate Dataset
-├── install_cli.sh              # install required packages 
+├── install_cli.sh              # install required package
 ├── loss.py                     # loss function
 ├── main_xlm_bert.py            # train mulingual-BERT
 ├── main_xlm_roberta.py         # train XLM-RoBERTa
 ├── model.py                    # model implementation
+├── pred_data
+│   └── README.md
 ├── preprocessing.py            # preprocess the data
-└── train.py                    # define training and validation loop             
+├── pretrained_weights          # store the pretrained weights
+│   └── README.md
+└── train.py                    # define training and validation loop
 ```
 ## Installation
 Use the following so that you can install all of required packages:
