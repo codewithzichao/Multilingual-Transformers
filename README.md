@@ -8,7 +8,7 @@ Source code for EACL2021 workshop: Offensive Language Identification in Dravidia
 ## Repository structure
 ```shell
 ├── README.md
-├── ckpt                        # store model weights
+├── ckpt                        # store model weights during training
 │   └── README.md
 ├── data                        # store the data
 │   └── README.md
